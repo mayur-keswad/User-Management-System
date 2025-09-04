@@ -47,8 +47,7 @@ Clone the repository
 
 git clone https://github.com/mayur-keswad/User-Management-System.git
 
-
-Open the project in Spring Tool Suite (STS).
+Open the project in Spring Tool Suite (STS)
 
 Configure MySQL Database
 
@@ -56,30 +55,31 @@ Create a database (e.g., user_management).
 
 Update src/main/resources/application.properties with your MySQL username, password, and database name.
 
-spring.datasource.url=jdbc:mysql://localhost:3306/user_management
-spring.datasource.username=root
-spring.datasource.password=yourpassword
-spring.jpa.hibernate.ddl-auto=update
+Example: spring.datasource.url=jdbc:mysql://localhost:3306/user_management
 
+spring.datasource.username=root
+
+spring.datasource.password=yourpassword
+
+spring.jpa.hibernate.ddl-auto=update
 
 Build and Run
 
-Use Maven to build:
+Use Maven to build: mvn clean install
 
-mvn clean install
-
-
-Run the application:
-
-mvn spring-boot:run
+Run the application: mvn spring-boot:run
 
 5. API Endpoints
-Method	URL	Description
-1. GET	/users	Get all users
-2. GET	/users/{id}	Get user by ID
-3. POST	/users	Create new user
-4. PUT	/users/{id}	Update existing user
-5. DELETE	/users/{id}	Delete user
+
+GET /users - Get all users
+
+GET /users/{id} - Get user by ID
+
+POST /users - Create new user
+
+PUT /users/{id} - Update existing user
+
+DELETE /users/{id} - Delete user
 
 Example Request/Response can be tested using Postman.
 
@@ -95,14 +95,22 @@ Data will be stored in the MySQL database configured in application.properties.
 
 Fork the repository.
 
-Create a feature branch: git checkout -b feature-name.
+Create a feature branch: git checkout -b feature-name
 
-Commit your changes: git commit -m "Add feature".
+Commit your changes: git commit -m "Add feature"
 
-Push to branch: git push origin feature-name.
+Push to branch: git push origin feature-name
 
 Open a Pull Request.
 
 8. License
 
 This project is open-source and available under the MIT License.
+
+9. Contact
+
+Author: Mayur Keswad
+
+GitHub: https://github.com/mayur-keswad
+
+Email: mayurkeswad8123@gmail.com

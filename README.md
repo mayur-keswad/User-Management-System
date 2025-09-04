@@ -41,27 +41,7 @@ Version Control: Git, GitHub
 
 IDE: Spring Tool Suite (STS)
 
-4. Project Structure
-UserManagement
-│
-├─ src/main/java/com/
-│   ├─ Controller/        # REST controllers
-│   │   └─ resttestController.java
-│   ├─ Model/             # User entity classes
-│   ├─ Repository/        # DAO interfaces
-│   ├─ Service/           # Business logic
-│   ├─ UsermanagementApplication.java
-│   └─ ServletInitializer.java
-│
-├─ src/main/resources/
-│   ├─ application.properties   # Database configuration
-│   └─ snippet                  # Sample resources
-│
-├─ pom.xml
-├─ mvnw
-└─ .gitignore
-
-5. Installation & Setup
+4. Installation & Setup
 
 Clone the repository
 
@@ -93,17 +73,17 @@ Run the application:
 
 mvn spring-boot:run
 
-6. API Endpoints
+5. API Endpoints
 Method	URL	Description
-GET	/users	Get all users
-GET	/users/{id}	Get user by ID
-POST	/users	Create new user
-PUT	/users/{id}	Update existing user
-DELETE	/users/{id}	Delete user
+1. GET	/users	Get all users
+2. GET	/users/{id}	Get user by ID
+3. POST	/users	Create new user
+4. PUT	/users/{id}	Update existing user
+5. DELETE	/users/{id}	Delete user
 
 Example Request/Response can be tested using Postman.
 
-7. Usage
+6. Usage
 
 Open your browser or Postman.
 
@@ -111,7 +91,7 @@ Use the API endpoints to perform CRUD operations.
 
 Data will be stored in the MySQL database configured in application.properties.
 
-8. Contributing
+7. Contributing
 
 Fork the repository.
 
@@ -123,14 +103,6 @@ Push to branch: git push origin feature-name.
 
 Open a Pull Request.
 
-9. License
+8. License
 
 This project is open-source and available under the MIT License.
-
-10. Contact
-
-Author: Mayur Keswad
-
-GitHub: https://github.com/mayur-keswad
-
-Email: mayurkeswad8123@gmail.com
